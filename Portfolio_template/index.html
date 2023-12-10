@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default margin-bottom and rounded borders */
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Web-ohjemointi syksy 2023</h1>
+        <p>Portfolio (template) Ville Poikela</p>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <h3>Kurssin aikana tehdyt tehtävät</h3>
+      <br />
+      <div class="row">
+        <div class="container">
+          <h2><a href="#H1">Tehtävä 1:</a></h2>
+          <img
+            src=".\kuvat\T1.png"
+            class="img-responsive"
+            style="width: 100%"
+            alt="Image"
+          />
+      </div>
+    </div>
+    <br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2><a href="#H2">Tehtävä 2:</a></h2>
+              <img
+                src=".\kuvat\T2.png"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2><a href="#H3">Tehtävä 3:</a></h2>
+              <img
+                src=".\kuvat\T3.png"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2><a href="#H5">Tehtävä 5:</a></h2>
+              <img
+                src=".\kuvat\T5.png"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2><a href="#H6">Tehtävä 6:</a></h2>
+              <img
+                src=".\kuvat\T6.png"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H1">Tehtävä 1: </h2>
+              <p>
+                Tehtävssä 1 harjoiteltiin Javascriptin käyttöä. Syötteenä saadusta merkkijonosta piti
+                saada selville, onko se palindrommi vai ei.
+                <br /><br />
+                Lähdin JS:llä tekemään ratkaisua readline-sync -paketin avulla, jotta pystyin lukemaan
+                konsolisyötteitä. Valmiit JavaScript-funktiot olivat kiellettyjä, joten tein oman
+                funktioni tutkimaan syötettä. Ratkaisussa iteroin syötteenä saatua merkkijonoa toisinpäin
+                tallentamalla nykyinen indeksiä uuteen merkkijonoon ja lopuksi vertaamalla käännettyä
+                merkkijonoa alkuperäiseen ja palauttamalla true tai false.
+
+                <br /><br />
+
+                Ratkaisu oli yksinkertainen, mutta silti parannettavaa olisi löytynyt. Esimerkiksi 
+                olisin voinut hyödyntää kahta eri indeksiä/pointteria, jotka saman aikasesti kävisivät
+                merkkijonoa läpi alusta ja lopusta. Näin algoritmi olisi hieman tehokkaampi, koska se 
+                keskeytetään heti, kun yksikään kirjain poikkeaa toisesta.
+
+                <br /><br />
+
+                Tehtävän ansiosta osasin oppia käyttämään muissa kielissä (Java ja Python) opittua
+                koodausta JavaScriptissä.
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H2">Tehtävä 2: </h2>
+              <p>
+                Tehtävässä 2 tarkoitus oli lisätä puhelinluetteloon objekteja taulukossa.
+                Käyttäjältä kysytään henkilön nimi ja puhelinnumero, jotka lisätään taulukkoon tai haetaan
+                tietoa taulukosta.
+
+                <br /><br />
+
+                Tehtävän 1 tapaan lähdin liikkeelle käyttämällä readline-sync -pakettia lukemaan käyttäjän
+                syötteen. Yhdistin syötteet taulukoksi ja lisäsin jo olemassa olevaan taulukkoon.
+                Tein hakufunktion, joka kysyy käyttäjältä nimeä ja palauttaa puhelinnnumeron. 
+                Funktio iteroi taulukkoa vertaamalla nykyistä indeksiä annetuun nimeen.
+
+                <br /><br />
+
+                En tähän hätään tiedä, miten yksinkertaista algoritmia voisi parantaa. Järjestämätöntä taulukkoa
+                ei varmaan voi käydä muussa kuin O(n) ajassa. (Ehkä Setillä?)
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H3">Tehtävä 3: </h2>
+              <p>
+                Tehtävässä 3 oli tarkoitus luoda kaksi luokkaa: henkilö ja urheilija. Urheilija perii 
+                henkilö-luokan olio-ohjelmoinnille tyypillisellä tavalla.
+
+                <br /><br />
+
+                Tein molemmat luokat siten, että urheilija perii henkilön ja tein myös molemmille
+                konstruktorit. Urheilijalle tein myös kaikille kentille omat getterit ja setterit.
+                Demosin koodin toimivuutta tekemällä urheilijasta uusia olioita parametrien kanssa ja
+                ilman. Ilman parametreja asetin kentät setterien kautta.
+
+                <br /><br />
+
+                Periytymisessä Javascript näyttää eroavan Javasta hieman, joka on tutumpi itselleni. 
+                Aliluokasta käsin ei suoraan päässytkään yläluokan kenttiin, vaan konstruktorin alussa
+                piti käyttää super() -funktiota. Ongelmia tuli myös syntaksin kanssa. this.syntymavuosi = pvm;
+                sai aikaan loputtoman silmukan, koska syntymavuosi tässä kutsuu getteriä setterin sisältä.
+                Sain korjattua sen näin: this._syntymavuosi = pvm;
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H5">Tehtävä 5: </h2>
+              <p>
+                Tehtävä 5 oli jo huomattavasti hankalempi kuin aiemmat tehtävät. Tarkoituksena oli luoda
+                MariaDB-tietokanta ja tehdä siihen crud-metodit node.js:llä. Video-ohjeistuksen avulla pääsin
+                pitkälle tehtävässä ja sain tehtyä omat delete- ja update-metodit. Ongelmia tuotti Postmanilla
+                serverin testaaminen, jota usean tunnin debuggaus ei auttanut. Palautus jäi sen vuoksi tilaan,
+                mitä ei voi ajaa.
+
+                <br /><br />
+
+                Minun olisi pitänyt perehtyä enemmän dokumentaatioon, sillä tehtävässä käytetty arkkitehtuuri/
+                reititys oli aivan uusi minulle.
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H6">Tehtävä 6: </h2>
+              <p>
+                Tehtävä 6 oli samanlainen kuin tehtävä 5. Tietokannan ja serverin luonti, joka tuotti haasteita
+                sen verran, etten päässyt edes kokeilemaan React-fronttia, kun siihen olisin tarvinnut
+                toimivan backendin ensin.
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="container">
+              <h2 id="H6">Lopuksi: </h2>
+              <p>
+                Ennen kurssia en ollut juuri koskaan käyttänyt mitään Web-ohjemoinnin kieliä tai kirjastoja,
+                mutta nyt reilun kolmen kuukauden jälkeen, ne ovat ainakin tulleet tutuiksi ja pystyn jatkamaan
+                itsenäisesti niiden opettelemista. Kurssilla on sopiva työmäärä viittä opintopistettä kohti.
+                Ongelmaksi tuli vastaan se, että muutamassa tehtävässä jäin jumiin, jota mikään määrä Googlettamista
+                ei auttanut. Taisin vain kerran kysyä Slackissä apua tehtävän kanssa, mutta enemmän olisi pitänyt
+                olla aktiivinen siellä. Yleensä kuin vaan jaksan käyttää tarpeeksi aikaa ongelmaan, saan sen itsenäsesti
+                ratkaistua, muttei näköjään tällä kertaa. Ehkä lisää jäin kaipaamaan ihan perus HTML:n ja
+                CSS:n käyttöä kurssin alussa, jonka varmaan huomaa tämän sivun suunnittelusta.
+              </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <footer class="container-fluid text-center">
+      <p></p>
+    </footer>
+  </body>
+</html>
